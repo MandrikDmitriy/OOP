@@ -10,3 +10,8 @@ git commit -am <name> - commit all files
 -----------------------------------------------------------------
 git add . - add all in GIT
 -------------------------------------------------------------------
+touch ~/.gitignore
+git config --global core.excludesFile ~/.gitignore
+-----------------------------------------------------------------
+git checkout <name branch> - branch transition
+-----------------------------------------------------------------
