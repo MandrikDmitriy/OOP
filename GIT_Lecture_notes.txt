@@ -1,5 +1,9 @@
 git checkout -b <name> - создать ветку и переключиться на неё.
 ----------------------------------------------------------------
+git checkout <name> - switch to branch
+-----------------------------------------------------------------
+git merge <name branch> - merging branch
+----------------------------------------------------------------
 mk dir - create directory
 -----------------------------------------------------------
 touch <name> - create new file
@@ -13,6 +17,9 @@ git add . - add all in GIT
 touch ~/.gitignore
 git config --global core.excludesFile ~/.gitignore
 -----------------------------------------------------------------
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+------------------------------------------------------------------
 git checkout <name branch> - branch transition
 -----------------------------------------------------------------
 Команды в Git Bash консоли
