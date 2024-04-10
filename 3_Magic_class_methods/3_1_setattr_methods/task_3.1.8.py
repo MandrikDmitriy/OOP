@@ -1,6 +1,6 @@
 class Circle:
     attr = {'x': (int, float), 'y': (int, float), 'radius': (int, float)}
-    
+
     def __init__(self, x, y, radius):
         self.__x = self.__y = self.__radius = None
         self.x = x
@@ -37,7 +37,6 @@ class Circle:
         if key == 'radius' and value <= 0:
             return
         object.__setattr__(self, key, value)
-
 
     def __getattr__(self, item):
         return False
