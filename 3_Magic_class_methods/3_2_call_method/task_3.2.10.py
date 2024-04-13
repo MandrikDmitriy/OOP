@@ -4,7 +4,7 @@ class InputValue:
 
     def __call__(self, func):
         def wrapper(*args, **kwargs):
-            return list(map(func(), self.render().split()))
+            return list(map(self.render, func(*args, **kwargs).split()))
         return wrapper
 
 
@@ -18,7 +18,7 @@ class RenderDigit:
             return None
 
 
-input_dg = InputValue(input)
-ren = RenderDigit()
-res = input_dg(ren)
+render = RenderDigit()
+input_dg = InputValue(render)(input)
+res = input_dg()
 print(res)
