@@ -10,14 +10,14 @@ class FileAcceptor:
         if type(other) is not FileAcceptor:
             raise TypeError('The attribute must be a FileAcceptor class')
         s = tuple(x for x in other.file if x not in self.file)
-        return FileAcceptor(self.file + s)
+        return FileAcceptor(*(self.file + s))
 
 
-filenames = ["boat.jpg", "web.png", "text.txt", "python.doc", "ava.jpg", "forest.jpeg", "eq_1.png", "eq_2.png"]
+filenames = ["boat.jpg", "web.png", "text.txt", "python.doc", "ava.jpg", "forest.jpeg", "eq_1.png", "eq_2.png", "t.bmp"]
 acceptor = FileAcceptor('jpg', 'png', 'jpeg')
 print(acceptor.file)
 acceptor_2 = FileAcceptor('png', 'bmp')
 acceptor_3 = acceptor + acceptor_2
 print(acceptor_3.file)
-filenames = list(filter(acceptor, filenames))
+filenames = list(filter(acceptor_3, filenames))
 print(filenames)
