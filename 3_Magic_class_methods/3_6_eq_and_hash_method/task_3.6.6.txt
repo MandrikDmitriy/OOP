@@ -1,0 +1,4 @@
+System unit: 1500 75890.56
+Monitor Samsung: 2000 34000
+Keyboard: 200.44 545
+Monitor Samsung: 2000 34000
