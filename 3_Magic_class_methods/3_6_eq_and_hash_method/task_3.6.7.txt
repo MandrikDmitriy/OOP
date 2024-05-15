@@ -1,0 +1,5 @@
+Balakirev S.M.; programmer; 33
+Kuznetsov N.I.; driver; 35
+Suvorov A.V.; commander; 42
+Ivanov I.I.; doctor; 40
+Balakirev S.M.; teacher; 33
