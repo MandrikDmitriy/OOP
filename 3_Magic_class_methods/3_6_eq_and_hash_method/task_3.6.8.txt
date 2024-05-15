@@ -1,0 +1,4 @@
+Python;Balalirev C.M.;2020
+Python OOP;Balalirev C.M.;2021
+Python OOP;Balalirev C.M.;2021
+Python;Balalirev C.M.;2020
