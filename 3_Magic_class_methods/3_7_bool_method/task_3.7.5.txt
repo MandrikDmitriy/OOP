@@ -1,0 +1,3 @@
+sc_lib@list.ru; From Bal; IT
+mail@list.ru; you win; Ok
+mail123@list.ru; you lose; Not ok
