@@ -1,0 +1,4 @@
+Balakirev;34;2048
+Mediel;27;0
+Vlad;18;9012
+Nina P;33;0
